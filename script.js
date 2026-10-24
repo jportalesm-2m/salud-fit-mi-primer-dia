@@ -139,7 +139,7 @@ const zoneContent = {
   recepcion: ['Recepción','Aquí puedes preguntar sobre horarios, normas del gimnasio o pedir orientación.'],
   maquinas: ['Zona de máquinas','Encontrarás equipos diferentes. No necesitas saber utilizarlos todos desde el primer día; puedes pedir ayuda.'],
   cardio: ['Zona de cardio','Aquí puede haber caminadoras, bicicletas y otros equipos para moverte a tu propio ritmo.'],
-  vestidores: ['Vestidores','Este espacio sirve para cambiarte y guardar tus pertenencias. Si tienes dudas, puedes consultar al personal.']
+  Casilleros y SS. HH.: ['Casilleros y SS. HH.','Este espacio sirve para guardar tus pertenencias y Utilizar los servicios higiénicos. Si tienes dudas, puedes consultar al personal.']
 };
 function showZone(zone) {
   const data = zoneContent[zone];
