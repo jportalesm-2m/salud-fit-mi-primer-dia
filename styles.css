@@ -677,7 +677,8 @@ button:focus-visible { outline: 3px solid #FCC202; outline-offset: 3px; }
     border-radius: 12px;
   }
 
-  /* Imagen del personaje */
+ 
+  /* Imagen del personaje: llena todo el cuadro en celulares */
   #personaje .choice-card .character-image,
   #personaje .choice-card .arrival-character-image {
     display: block;
@@ -685,7 +686,7 @@ button:focus-visible { outline: 3px solid #FCC202; outline-offset: 3px; }
     height: 100%;
     min-height: 0;
     max-width: 100%;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center center;
     margin: 0;
     padding: 0;
@@ -715,5 +716,3 @@ button:focus-visible { outline: 3px solid #FCC202; outline-offset: 3px; }
     overflow-wrap: anywhere;
   }
 }
-
-
