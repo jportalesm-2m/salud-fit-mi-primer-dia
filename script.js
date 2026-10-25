@@ -264,5 +264,3 @@ function showZone(zone) {
 
   zoneInfo.append(title, description);
 }
-
-}
